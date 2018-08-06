@@ -9,7 +9,7 @@ module.exports = function (router) {
     getJSON(queryURL, function (error, response) {
       console.log(response)
       if (error) return console.log(error)
-      res.json(response.result)
+      res.json(response)
     })
   })
 }
